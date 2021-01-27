@@ -1,6 +1,8 @@
 # GirlGamers
 TextfitXL done right.  Focus on GirlGamers reddit.
 
+The code in the Jupyter notebook is messy.  The point is that I got a text classifier that was better than 73% accurate with just a couple of hours of work using a modern AI library and a GPU server.  That's MUCH better than a similar project on the same data using logistic regression on Spark five years ago.  FYI 74% is not bad for text.  
+
 Sometimes I look at my projects from years past and think, "Wow! That sucks!" As in, I really didn't know what I was doing or the model didn't perform well, or both. I think this is a good thing. It means I'm getting better.
 
 Case in point: Four years ago I worked on a natural language processing (NLP) project involving about 1 TB of Reddit data. This was one of those projects you do to show your capabilities to a potential employer. The goal was to create a model that would predict whether a comment would be voted up or down. REALLY up or down. I only used the top and bottom 3% of comments in terms of up-votes or down-votes. I used Spark, which I knew well at the time. I scaled up a model that someone else had done for a much smaller amount of Reddit data. I understood the technology, I had a lot of labeled data and I had a model that was already proven to work. What could go wrong? 
